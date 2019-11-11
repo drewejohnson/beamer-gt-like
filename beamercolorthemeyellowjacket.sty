@@ -1,0 +1,92 @@
+%% beamercolorthemeyellowjacket.sty
+%% Copyright 2019 Andrew Johnson
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.3
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+%   http://www.latex-project.org/lppl.txt
+% and version 1.3 or later is part of all distributions of LaTeX
+% version 2005/12/01 or later.
+%
+% This work has the LPPL maintenance status `maintained'.
+% 
+% The Current Maintainer of this work is Andrew Johnson
+%
+% This work consists of the files 
+%  - beamercolorthemeyellowjacket.sty
+%  - beamerthemeatlanta.sty
+%
+% Description
+% Georgia Tech LaTeX Beamer Color scheme
+% Unofficial and not endorsed by Georgia Institute of Technology
+% Keeping with tradition of beamer color schemes named
+% animals, name this after Georgia Tech mascot - yellow jacket
+%
+% Colors are found in the official branding guide
+% https://comm.gatech.edu/brand/colors
+% emphasizing the Tech Gold and metallic colors
+%
+% TODO: Coloring for additional blocks [alert and example]
+
+\mode<presentation>
+\usepackage{pgfcomp-version-0-65}
+\usepackage{xcolor}
+
+\definecolor{GTtechgold}{RGB}{167,147,75}
+\definecolor{GTbuzzgold}{RGB}{234,170,0}
+\definecolor{GTbuzzgold60}{RGB}{245,213,128}
+\definecolor{GTblue}{RGB}{0,48,87}
+\definecolor{GTdarkgrey}{RGB}{84,84,84}
+\definecolor{GTpalettedark}{RGB}{84,88,90}
+\definecolor{GTpalettemed}{RGB}{142,139,118}
+\definecolor{GTpalettelight}{RGB}{214,219,212}
+
+\definecolor{GTemphblue}{RGB}{75,139,155}
+\definecolor{GTemphred}{RGB}{249,94,16}
+\definecolor{GTemphgreen}{RGB}{55,113,23}
+
+\setbeamercolor{title}{bg=,fg=GTtechgold}
+\setbeamercolor{author}{fg=black}
+\setbeamercolor{institute}{fg=black}
+\setbeamercolor{date}{fg=black}
+
+\setbeamercolor{frametitle}{bg=,fg=GTtechgold}
+\setbeamercolor{footline}{bg=GTtechgold,fg=GTblue}
+
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{section name}{fg=black}
+\setbeamercolor{section title}{fg=GTtechgold}
+
+\setbeamercolor{navigation symbols}{bg=GTdarkgrey,fg=GTdarkgrey}
+\setbeamercolor{palette primary}{bg=GTpalettelight,fg=black}
+\setbeamercolor{palette secondary}{bg=GTpalettemed,fg=white}
+\setbeamercolor{palette tertiary}{bg=GTpalettedark,fg=white}
+
+% Items and enumerations
+
+\setbeamercolor{itemize item}{fg=black}
+\setbeamercolor{itemize subitem}{fg=black}
+\setbeamercolor{itemize subsubitem}{fg=black}
+\setbeamercolor{enumerate item}{fg=black}
+\setbeamercolor{enumerate subitem}{fg=black}
+\setbeamercolor{enumerate subsubitem}{fg=black}
+
+\setbeamercolor{caption}{fg=black}
+\setbeamercolor{caption name}{fg=GTblue}
+\setbeamercolor{logo}{fg=GTtechgold}
+
+% Blocks
+% No support [currently] for alert and example blocks
+
+\setbeamercolor{block title}{bg=GTbuzzgold,fg=GTdarkgrey}
+\setbeamercolor{block body}{bg=GTbuzzgold60,fg=black}
+
+% Bibliography
+
+\setbeamercolor{bibliography entry author}{fg=black}
+\setbeamercolor{bibliography entry title}{fg=black}
+\setbeamercolor{bibliography entry location}{fg=black}
+\setbeamercolor{bibliography item}{fg=black}
+
+\mode<all>
