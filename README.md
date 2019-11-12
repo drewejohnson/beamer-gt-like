@@ -26,11 +26,14 @@ of the following lines to your preamble
 
 ## Examples
 
+![Both color and structure theme](./full.png)
+**Color and structure theme**
+
 ![Just the color theme](./color.png)
+**Just the coloring**
 
 ![Just the theme](./theme.png)
-
-![Both color and structure theme](./full.png)
+**Just the outer theme / structure** 
 
 ## License
 This work may be distributed and/or modified under the
